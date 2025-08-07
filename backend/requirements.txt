@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pdfplumber
+sentence-transformers
+transformers
+torch
+faiss-cpu
+python-multipart
