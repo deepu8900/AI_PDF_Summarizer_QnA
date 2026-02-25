@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  rag-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./vectorstore:/app/vectorstore

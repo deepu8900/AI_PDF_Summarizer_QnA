@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI PDF RAG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    
+    <h1>AI PDF Summarizer & QA</h1>
+    
+    <input type="file" id="pdfFile">
+    <button onclick="uploadPDF()">Upload PDF</button>
+    
+    <button onclick="getSummary()">Generate Summary</button>
+    
+    <input type="text" id="question" placeholder="Ask question from document...">
+    <button onclick="askQuestion()">Ask Question</button>
+    
+    <div id="output"></div>
+    
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
