@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AI PDF Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI PDF Summarizer & QnA</h1>
+
+<div class="upload-section">
+
+<h2>Upload PDF</h2>
+
+<input type="file" id="pdfFile">
+
+<button onclick="uploadPDF()">Upload</button>
+
+<p id="uploadStatus"></p>
+
+</div>
+
+
+<div class="summary-section">
+
+<h2>Generate Summary</h2>
+
+<button onclick="getSummary()">Summarize</button>
+
+<div id="summaryResult"></div>
+
+</div>
+
+
+<div class="qa-section">
+
+<h2>Ask Questions</h2>
+
+<input type="text" id="questionInput" placeholder="Ask something from the document">
+
+<button onclick="askQuestion()">Ask</button>
+
+<div id="answerResult"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
